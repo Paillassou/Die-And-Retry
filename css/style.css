@@ -1,0 +1,116 @@
+/*GENERAL PARAMETERS*/
+
+body{
+  font-family: 'Merriweather', serif;
+bac
+}
+
+.bloclog, .addtop{
+  text-align: center;
+}
+
+select{
+  font-size: 20px;
+}
+
+/* HEADER */
+
+.banner{
+  background-image: url(../img/1.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 140px;
+}
+
+/* !!!! HEADER !!!!! */
+
+/* BODY */
+
+/* FORM  LOGIN*/
+
+div h1{
+  font-size: 50px;  
+}
+
+/* !!!! FORM LOGIN !!!! */
+
+/* LIST */
+
+.radio{
+  width: 20px;
+  cursor: pointer;
+}
+
+
+/* !!!! LIST !!!! */
+
+/* ADD FORM */
+
+.addform div p{
+  font-weight: bold;
+}
+
+.addgamebut{
+  margin-top: 60px;
+  float: right;
+}
+
+.boxes{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+
+.box{
+width: 160px;
+margin: 5px;
+}
+
+
+
+/* !!!! ADD FORM !!!! */
+
+/* FUNCTIONS BUTTONS */
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.buttons button{
+  margin: 10px;
+}
+
+/* !!!! FUNCTIONS BUTTONS !!!! */
+
+/* !!!! BODY !!!! */
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 770px) {
+  /* HEADER */
+
+  .banner{
+    background-image: url(../img/1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 240px;
+  }
+
+/* !!!! HEADER !!!!! */
+
+/* BODY */
+
+/* FORM */
+
+.bloclog h1{
+  font-size: 40px;
+}
+
+/* !!!! FORM !!!! */
+
+/* !!!! BODY !!!! */
+}
