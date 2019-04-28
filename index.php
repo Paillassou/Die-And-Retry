@@ -87,7 +87,6 @@
   $idprim = sprintf('%03d',$idprim);  // On affiche les "00" 
 
 // Code à éxécuter si le champ de recherche est vide  
-var_dump($_POST);
 if ($_GET == null ) {
   foreach ($donnees as $jeu => $details) {
   
